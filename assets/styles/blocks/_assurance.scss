@@ -1,0 +1,100 @@
+.assurance {
+    padding: 75px 0 100px;
+    background: #33170D;
+    &__box {
+        position: relative;
+        &::before {
+            content: '';
+            width: 1300px;
+            height: 1371px;
+            position: absolute;
+            background: url(/assets/images/img-list.png) no-repeat;
+            top: -155px;
+            left: -183px;
+        }
+    }
+
+    &__header {
+        position: relative;
+        margin-bottom: 100px;
+        text-align: center;
+        &::after {
+            content: '';
+            width: 1200px;
+            height: 727px;
+            position: absolute;
+            border-bottom: 0.5px solid rgba(223, 194, 119, 0.3);
+            top: -394px;
+            opacity: 0.3;
+            right: 10%;
+        }
+    }
+
+    &__title {
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 39px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    &__block {
+        position: relative;
+        display: grid;
+        grid-template-columns: repeat(2, 499px);
+        gap: 67px;
+        justify-content: center;
+        margin-left: 147px;
+        &::after {
+            content: '';
+            width: 736px;
+            height: 727px;
+            position: absolute;
+            border-left: 0.5px solid rgba(223, 194, 119, 0.3);
+            top: -6%;
+            right: 1%;
+            opacity: 0.3;
+        }
+    }
+
+    &__card {
+        &::after {   
+            content: '';
+            width: 1200px;
+            height: 727px;
+            position: absolute;
+            border-bottom: 0.5px solid rgba(223, 194, 119, 0.3);
+            top: -47%;
+            opacity: 0.1;
+            right: 11%;
+        }
+    }
+
+    &__hed {
+        display: flex;
+        align-items: center;
+        gap: 27px;
+    }
+
+    &__img {
+        padding: 19px;
+        background: rgba(255, 255, 255, 0.05);
+        border-radius: 30px;
+    }
+
+    &__sub-title {
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 140%;
+        color: rgba(255, 255, 255, 0.8);
+    }
+
+    &__word {
+        margin-top: 12px;
+        max-width: 430px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 140%;
+        color: rgba(255, 255, 255, 0.8);
+    }
+}

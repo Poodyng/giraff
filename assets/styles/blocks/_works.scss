@@ -1,0 +1,79 @@
+.works {
+    padding: 65px 0 75px;
+    background: #33170D;
+    &__box {
+
+    }
+
+    &__header {
+        text-align: center;
+    }
+
+    &__title {
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 39px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    &__block {
+        position: relative;
+        display: flex;
+        justify-content: space-evenly;
+        &::after {
+            content: '';
+            width: 1300px;
+            height: 1600px;
+            background: url(/assets/images/icons/big-list.png);
+            position: absolute;
+            top: -308%;
+            right: -11%;
+        }
+    }
+
+    &__card {
+        text-align: center;
+    }
+
+    &__sub-title {
+        color: #33170D;
+        font-weight: 800;
+        font-size: 160px;
+        line-height: 150%;
+        -webkit-text-stroke: 5px rgba(255, 199, 0, 1);
+        opacity: 0.2;
+    }
+
+    &__word {
+        margin-top: -41px;
+        max-width: 350px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 140%;
+        color: rgba(255, 255, 255, 0.8);
+    }
+
+    &__bbtn {
+        position: relative;
+        margin-top: 60px;
+        text-align: center;
+    }
+
+    &__btn {
+        padding: 14px 79px;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 150%;
+        color: #FFFFFF;
+        background: linear-gradient(92.94deg, #FD6B46 -5.22%, #FFC700 124.86%);
+        border-radius: 30px;
+        transition: 1s ease-in;
+        &:hover {
+            color: #FFC700;
+            background: #a38d5e;
+            outline: 2px solid #FDC22A;
+            cursor: pointer;
+        }
+    }
+}

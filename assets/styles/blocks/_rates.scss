@@ -1,0 +1,133 @@
+.rates {
+    background: #33170D;
+    padding-bottom: 65px;
+    &__box {
+
+    }
+
+    &__header {
+        position: relative;
+        padding: 70px 0 95px;
+        &::after {
+            content: '';
+            width: 1300px;
+            height: 1371px;
+            position: absolute;
+            background: url(/assets/images/img-list.png) no-repeat;
+            top: -19px;
+            left: -191px;
+        }
+    }
+
+    &__title {
+        text-align: center;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 39px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    &__btns {
+        margin-top: 30px;
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    &__blocks-card {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        transition: 0.6s ease;
+        z-index: 1;
+        &:hover {
+            gap: 35px;
+        }
+    }
+
+    &__card {
+        padding: 24px 30px;
+        border-radius: 10px;
+        background: #462D25;
+        transition: 0.3s ease;
+        z-index: 1;
+        &:hover {
+            transform: scale(1.1);
+            box-shadow: 0px 10px 20px 2px;
+        }
+    }
+
+    &__word {
+        text-align: center;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        color: #DFC277;
+    }
+
+    &__big-word {
+        margin: 15px 0 20px;
+        text-align: center;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 58px;
+        color: #FFFFFF;
+    }
+
+    &__mini-word {
+        margin-bottom: 25px;
+        text-align: center;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        color: #DFC277;
+    }
+
+    &__list {
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    &__sub-title {
+        padding: 15px 0;
+        border-bottom: 0.5px solid rgba(223, 194, 119, 0.3);
+        display: flex;
+        gap: 15px;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        color: #FDC22A;
+
+    }
+
+    &__sub-word {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        color: rgba(255, 255, 255, 0.8);
+    }
+
+    &__btn {
+        margin-top: 25px;
+        padding: 11px 49px;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 150%;
+        color: #33170D;
+        background: #FDC22A;
+        border-radius: 30px;
+        transition: 0.5s ease;
+        &:hover {
+            color: #FDC22A;
+            background-color: #33170D;
+            outline: 1px solid #FDC22A;
+            cursor: pointer;
+        }
+    }
+
+    &__butt {
+        margin-top: 56px;
+    }
+}

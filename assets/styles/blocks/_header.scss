@@ -1,0 +1,87 @@
+.header {
+    padding: 50px 0;
+    &__header {
+       display: flex; 
+       justify-content: space-between;
+    }
+    
+    &__logo {
+        transition: 0.4s ease;
+        &:hover {
+            cursor: pointer;
+            opacity: 0.5;
+        }
+    }
+
+    &__items {
+        display: flex;
+        gap: 130px;
+    }
+
+    &__connection {
+        display: flex;
+        align-items: center;
+        gap: 13px;
+        margin-right: 100px;
+    }
+
+    &__img-tel {
+        padding: 15px 27px;
+        border-radius: 30px;
+        background: rgba(255, 255, 255, 0.05);
+        transition: 0.4s ease;
+        &:hover {
+            cursor: pointer;
+            background: rgba(73, 47, 47, 0.05);
+        }
+    }
+
+    &__img-mess {
+        padding: 15px 27px;
+        border-radius: 30px;
+        background: rgba(255, 255, 255, 0.05);
+        transition: 0.4s ease;
+        &:hover {
+            cursor: pointer;
+            background: rgba(73, 47, 47, 0.05);
+        }
+    }
+
+    &__title {
+        max-width: 120px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 130%;
+        color: #FFFFFF;
+        transition: 0.4s ease;
+        &:hover {
+            cursor: pointer;
+            color: rgba(255, 199, 0, 0.8);
+        }
+    }
+
+    &__block-btn {
+        display: flex;
+        align-items: center;
+        gap: 11px;
+    }
+
+    &__img-btn {
+        position: relative;
+        padding: 14px 27px;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 30px;
+        &::after {
+            content:'';
+            width: 9px;
+            height: 17px;
+            position: absolute;
+            background: url(/assets/images/icons/dushka.png);
+            top: 30%;
+            left: 29.5%;
+        }
+    }
+}

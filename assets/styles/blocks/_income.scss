@@ -1,0 +1,181 @@
+.income {
+    display: flex;
+    padding: 120px 0 65px;
+    background: #33170D;
+    &__items {
+
+    }
+
+    &__header {
+        padding-bottom: 60px;
+    }
+
+    &__title {
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 39px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    &__sub-title {
+        margin-bottom: 15px;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 25px;
+        color: #FFFFFF;
+    }   
+
+    &__number {
+        padding: 7px 50px 7px 24px;
+        background: #4D3127;
+        border-radius: 30px;
+    }
+
+    &__nnub {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+        max-width: 180px;
+        color: #FFC700;
+        padding: 0 13px 0 0;
+    }
+    
+    &__gold {
+       color:  rgba(255, 199, 0, 1);font-weight: 600;
+       font-size: 32px;
+       line-height: 39px;
+       text-transform: uppercase;
+    }
+
+    &__block {
+        position: relative;
+        padding: 50px;
+        background: rgba(0, 0, 0, 0.1);
+        border-radius: 30px;
+        z-index: 1;
+        &::before {
+            content: '';
+            width: 800px;
+            height: 820px;
+            background: url(/assets/images/icons/razmtie.png);
+            position: absolute;
+            top: 29%;
+            z-index: 1;
+            right: -447px;
+        }
+    }
+
+    &__block-card {
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        gap: 15px;
+        &::after {
+            content: '';
+            width: 380px;
+            height: 265px;
+            position: absolute;
+            background: url(/assets/images/icons/Mmoney.png);
+            top: 359%;
+            right: -58px;
+        }
+    }
+
+    &__card-one {
+        position: relative;
+        &::before {
+            content: '';
+            width: 130px;
+            height: 110px;
+            position: absolute;
+            background: url(/assets/images/icons/moneta.png);
+            top: 377%;
+            right: -367px;
+            filter: blur(7px);
+            z-index: 1;
+        }
+    }
+
+    &__card-two {
+        position: relative;
+        &::after {
+            content: '';
+            width: 41px;
+            height: 32px;
+            background: url(/assets/images/icons/moneta-two.png);
+            position: absolute;      
+            top: 550%;
+            right: -172%;
+            filter: blur(2px);
+        }
+    }
+
+    &__block-btn {
+        padding: 5px;
+        background: #4D3127;
+        border-radius: 30px;
+    }
+
+    &__block-line {
+        position: relative;
+        &::before {
+            content: '';
+            width: 30px;
+            height: 71px;
+            background: url(/assets/images/icons/moneta-three.png);
+            position: absolute;
+            top: 50%;
+            right: 2%;
+            filter: blur(2px);
+        }
+    }
+
+    &__line {
+        margin: 100px 0 30px;
+        width: 100%;
+        height: 10px;
+        background: #492D23;
+        border-radius: 30px;
+    }
+
+    &__block-text {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    &__word {
+        max-width: 281px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 140%;
+        color: rgba(255, 255, 255, 0.8);
+    }
+
+    &__income {
+
+    }
+
+    &__sub-word {
+        margin: 56px 0 26px;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 44px;
+        color: #FFFFFF;
+    }
+
+    &__big-word {
+        display: inline;
+        border: 1px solid rgba(255, 199, 0, 0.3);
+        border-radius: 10px;
+        padding: 9px 90px 20px 9px;
+        font-weight: 600;
+        font-size: 96px;
+        line-height: 118px;
+        color: #FFC700;
+    }
+}

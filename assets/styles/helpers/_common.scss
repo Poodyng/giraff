@@ -1,0 +1,111 @@
+@import './reset';
+@import './mixins';
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 25px;
+}
+
+.btn--one {
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    transition: 0.3s ease;
+    &:hover {
+        color: rgba(255, 199, 0, 0.8);
+        cursor: pointer;
+    }
+}
+
+.btn--two {
+    padding: 14px 30px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 130%;
+    color: #FFFFFF;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 30px;
+    transition: 0.3s ease;
+    &:hover {
+        color: rgba(255, 199, 0, 0.8);
+        cursor: pointer;
+    }
+}
+
+.btn--four {
+    display: flex;
+    gap: 15px;
+    padding: 8px 20px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+    color: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 30px;
+    transition: 0.4s ease;
+    z-index: 1;
+    &:hover {
+        border: 1px solid rgba(255, 255, 255, 0.8);
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+}
+
+.btn--five {
+    display: flex;
+    gap: 15px;
+    padding: 8px 58px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+    color: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 30px;
+    transition: 0.4s ease;
+    z-index: 1;
+    &:hover {
+        border: 1px solid rgba(255, 255, 255, 0.8);
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+}
+
+.btn--six {
+    padding: 6px 12px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.6);
+    border-radius: 30px;
+    transition: 0.3s ease;
+    &:hover {
+        background: #FFC700;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        color: #2E150C;
+    }
+}
+
+.btn--seven {
+    padding: 10px 50px;
+    font-size: 18px;
+    line-height: 27px;
+    line-height: 150%;
+    color: rgba(255, 255, 255, 0.7);
+    background-color: #462D25;
+    border-radius: 20px;
+    transition: 0.4s ease;
+    &:hover {
+        background-color: #FFC700;
+        color: #2E150C;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,75 @@
+.faq {
+    padding: 100px 0 75px;
+    background-color: #33170D;
+    &__items {
+        max-width: 1056px;
+        margin: 0 auto;
+    }
+
+    &__header {
+        position: relative;
+        padding: 43px 0;
+        text-align: center;
+        overflow: hidden;
+        background: url(/assets/images/icons/img-back.png) no-repeat center;
+        border-radius: 40px 40px 0 0;
+        &::after {
+            content: '';
+            width: 1067px;
+            height: 160px;
+            background: url(/assets/images/icons/img-back-two.png) no-repeat;
+            position: absolute;
+            top: 0%;
+            right: -1.1%;
+            text-align: center;
+        }
+    }
+
+    &__title {
+        position: relative;
+        font-size: 64px;
+        line-height: 100%;
+        color: #ffffff;
+        z-index: 1;
+    }
+
+    &__item-list {
+        position: relative;
+        padding-top: 30px;
+        background: rgba(0, 0, 0, 0.1);
+        margin: 0 auto;
+        border-left: 1px solid rgba(0, 0, 0, 1);
+        border-right: 1px solid rgba(0, 0, 0, 1);
+    }
+
+    &__list {
+        display: flex;
+        gap: 48px;
+        justify-content: center;
+    }
+
+    &__block-list {
+        padding: 40px 40px 60px 40px;
+        background: rgba(0, 0, 0, 0.1);
+        border-radius: 0 0 20px 20px;
+        border-bottom: 1px solid rgba(0, 0, 0, 1);
+        border-left: 1px solid rgba(0, 0, 0, 1);
+        border-right: 1px solid rgba(0, 0, 0, 1);
+        box-shadow: 0px 2px rgb(17, 16, 16);
+    }
+
+    &__card-list {
+        border-top: 2px solid #492D23;
+        padding: 25px 25px 25px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__sub-title {
+        font-size: 20px;
+        line-height: 28px;
+        line-height: 140%;
+        color: #ffffff;
+    }
+}
